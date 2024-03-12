@@ -1,26 +1,11 @@
-# Basic AI codes and prompts
-
-
-## Table of contents
-
-- [Topics](#topics)
-- [Install mini-conda](#install-mini-conda)
-- [Prepare](#prepare)
-- [Export requirements](#export-requirements)
-- [Deactivate virtual environment](#deactivate-virtual-environment)
-
-## Topics
-
-- Prompt Enginering
-    - [101 - Generate Code Snippets with LLMs](./prompt-engineering/101-generate-code-snippets-with-llm/readme.md)
-
+# Generate Code Snippets with LLMs
 
 ## Install mini-conda
 
 Quick installation guide for miniconda can be found [here](https://docs.anaconda.com/free/miniconda/#quick-command-line-install)
 
 
-## Prepare
+## Use and run
 
 1. Create virtual environment
 
@@ -38,6 +23,20 @@ pip3 install -r requirements.txt
 ```
 
 
+3. Run the code
+
+3.1 Fireworks
+
+
+```bash
+python3 fireworks.py
+```
+3.2 OpenAI
+
+```bash
+python3 openai.py
+```
+
 ## Export requirements
 
 ```bash
@@ -50,3 +49,7 @@ pip3 freeze > requirements.txt
 ```bash
 conda deactivate
 ```
+
+
+
+
